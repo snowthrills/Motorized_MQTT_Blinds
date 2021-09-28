@@ -43,6 +43,7 @@ cover:
     command_topic: "BlindsMCU/blindsCommand"
     set_position_topic: "BlindsMCU/positionCommand"
     position_topic: "BlindsMCU/positionState"
+    state_topic: "BlindsMCU/positionState"
     retain: true
     payload_open: "OPEN"
     payload_close: "CLOSE"
@@ -50,20 +51,6 @@ cover:
     position_open: 0
     position_closed: 12
   ```
-  
-## Optional - PCB Design for 3 blind system
-
-Project File: 
-
-GERBER FILE:Sender Board: https://github.com/thehookup/Motorized_MQTT_Blinds/blob/master/THU_Sender_Board.zip
-
-GERBER FILE:Receiver Board: https://github.com/thehookup/Motorized_MQTT_Blinds/blob/master/THU_Receiver_Board.zip
-
-## User Submitted PCBs
-
-GERBER FILE: Dave Morris Quad Blind: https://github.com/thehookup/Motorized_MQTT_Blinds/blob/master/Dave_Morris_4_Blind_With_Power.zip
-
-GERBER FILE:Joshua Garrison Single Blind: https://github.com/thehookup/Motorized_MQTT_Blinds/blob/master/Joshua_Garrison_Single_Blind.zip
   
 ## Recommended Tools
 

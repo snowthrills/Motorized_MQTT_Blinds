@@ -1,4 +1,4 @@
-
+use <MCAD/regular_shapes.scad>
 
 $fn=144;
 
@@ -13,5 +13,5 @@ difference() {
     
     // Motor shaft
     translate([-6/2, -3.5/2, 0])
-        cube([6, 3.5, 7]);
+        cube([4, 3.5, 7]);
 };
